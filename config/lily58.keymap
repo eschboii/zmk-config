@@ -40,7 +40,7 @@
         &kp TILDE &kp QUESTION &kp LA(N2) &kp LA(N3) &kp LA(N4) &kp LA(N5) &kp LS(N8) &kp LS(N9) &kp NON_US_BACKSLASH &kp LSHFT(NON_US_BACKSLASH) &kp LS(N0) &kp DEL
         &kp TAB &none &none &none &none &none &none &none &kp PGUP &kp UP &kp PGDN &kp DQT
         &kp LSHFT &none &none &none &none &none &none &none &kp LEFT &kp DOWN &kp RIGHT &kp APOSTROPHE
-        &kp LCTRL &none &none &none &none &none &kp RA(N7) &kp RA(N0) &none &none &kp COMMA &kp DOT &kp MINUS &kp NON_US_BACKSLASH
+        &kp LCTRL &none &none &none &none &none &kp RA(N7) &kp RA(N0) &none &none &kp COMMA &kp DOT &kp QUESTION &kp NON_US_BACKSLASH
         &kp LALT &kp RGUI &mo 1 &kp SPACE &kp RET &mo 2 &kp RALT &kp F24
     >;
 };
@@ -54,7 +54,7 @@
 //                     | ALT  |  WIN | LOWER|  SPACE |  | ENTER | RAISE| ALTGR | FN    |
       bindings = <
         &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12
-        &kp TAB &none &kp N0 &kp N1 &kp N2 &kp N3 &kp LSHFT(MINUS) &LS(N0) &none &none &none &none
+        &kp TAB &none &kp N0 &kp N1 &kp N2 &kp N3 &kp MINUS &kp QUESTION &none &none &none &none
         &kp LSHFT &none &none &kp N4 &kp N5 &kp N6 &LS(NON_US_BACKSLASH) &LS(N8) &none &none &none &none
         &kp LCTRL &none &none &kp N7 &kp N8 &kp N9 &kp RA(N8) &kp RA(N9) &none &none &none &none &none &none
         &kp LALT &kp RGUI &mo 1 &kp SPACE &kp RET &mo 2 &kp RALT &kp F24
