@@ -5,7 +5,6 @@
             bindings = <&kp LS(RBKT)>, <&kp RBKT>;
             mods = <MOD_LSFT>;
         };
-
         mm_n0: mm_n0 {
             compatible = "zmk,behavior-mod-morph";
             bindings = <&kp N0>, <&kp LS(MINUS)>;
