@@ -2,7 +2,7 @@
     behaviors {
         mm_rbkt: mm_rbkt {
             compatible = "zmk,behavior-mod-morph";
-            bindings = <&kp LS(RBKT)>,<&kp RBKT>;
+            bindings = <&kp LS(RBKT)>, <&kp RBKT>;
             mods = <MOD_LSFT>;
         };
 
