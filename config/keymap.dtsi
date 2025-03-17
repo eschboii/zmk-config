@@ -6,11 +6,13 @@
     behaviors {
         mm_rbkt: mm_rbkt {
             compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
             bindings = <&kp LS(RBKT)>, <&kp RBKT>;
             mods = <MOD_LSFT>;
         };
         mm_n0: mm_n0 {
             compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
             bindings = <&kp N0>, <&kp LS(MINUS)>;
             mods = <MOD_LSFT>;
         };
