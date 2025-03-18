@@ -33,13 +33,13 @@
          lower_layer {
 // ------------------------------------------------------------------------------------------------------------
 // |   §   |  @  |  /  |   <  |  (   |   |  |                   |  ´   |   )   |   >   |   \  |   =   |  DEL  | 
-// |  TAB  |CTRLZ|CTRLY|CTRLX | CTRLV| CTRLC|                   |  0   |   1   |   2   |   3  |   +   |   ^   |  
+// |  TAB  |CTRLZ|CTRLY|CTRLX | CTRLC| CTRLV|                   |  0   |   1   |   2   |   3  |   +   |   ^   |  
 // | SHIFT |     |     |      |      |      |                   |   =  |   4   |   5   |   6  |   -   |   '   |
 // | CTRL  |     |  $  |  €   |  £   |      |    (   |  |   )   |      |   7   |   8   |   9  |   *   |   /   |
 //                     | WIN  |  ALT | LOWER|  SPACE |  | ENTER | RAISE| ALTGR | FN    |
       bindings = <
         &kp GRAVE &kp RA(N2) &kp LS(N7) &kp NON_US_BACKSLASH  &kp LS(N8)                &kp RA(NON_US_BACKSLASH)                   &kp PLUS        &kp LS(N9)       &kp LS(NON_US_BACKSLASH) &kp RA(MINUS)            &kp LS(N0)        &kp DEL  
-        &kp TAB   &kp LC(Z)  &kp LC(Y)  &kp LC(X)             &kp LC(V)                 &kp LC(C)                                  &kp N0          &kp N1           &kp N2                   &kp N3                   &kp MINUS         &mm_rbkt 
+        &kp TAB   &kp LC(Z)  &kp LC(Y)  &kp LC(X)             &kp LC(C)                 &kp LC(V)                                  &kp N0          &kp N1           &kp N2                   &kp N3                   &kp MINUS         &mm_rbkt 
         &kp LSHFT &none      &none      &none                 &none                     &none                                      &kp LS(N0)      &kp N4           &kp N5                   &kp N6                   &kp SLASH         &kp BSLH
         &kp LCTRL &none      &kp RA(N4) &kp RA(N5)            &kp RA(N3)                &none            &kp LS(N8) &kp LS(N9)     &none           &kp N7           &kp N8                   &kp N9                   &kp LS(BSLH)      &kp LS(N7)
                                                                    &kp RGUI  &kp LALT &mo 1 &kp SPACE           &kp RET &mo 2 &kp RALT &mo 3
