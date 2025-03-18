@@ -16,6 +16,7 @@
             bindings = <&kp N0>, <&kp LS(MINUS)>;
             mods = <MOD_LSFT>;
         };
+ };
 
    combos {
         compatible = "zmk,combos";
