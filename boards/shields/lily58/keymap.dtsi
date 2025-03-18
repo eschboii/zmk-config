@@ -16,8 +16,20 @@
             bindings = <&kp N0>, <&kp LS(MINUS)>;
             mods = <MOD_LSFT>;
         };
- };
+        L_brack: L_brack {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp RA(N7)>, <&kp RA(N8)>;
+            mods = <MOD_LSFT>;
+        };
 
+        R_brack: R_brack {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp RA(N9)>, <&kp RA(N0)>;
+            mods = <MOD_LSFT>;
+        };
+};
    combos {
         compatible = "zmk,combos";
         backspace_combo {
