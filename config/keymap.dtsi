@@ -32,7 +32,7 @@
 
         mt: mod_tap {
             compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <11>;
+            #binding-cells = <10>;
             flavor = "hold-preferred";
             tapping-term-ms = <200>;
             bindings = <&mm_n0>, <&kp LS(N0)>;
