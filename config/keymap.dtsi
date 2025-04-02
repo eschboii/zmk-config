@@ -29,5 +29,14 @@
             bindings = <&kp RA(N0)>, <&kp RA(N9)>;
             mods = <MOD_LSFT>;
         };
+
+        mt: mod_tap {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <11>;
+            flavor = "hold-preferred";
+            tapping-term-ms = <200>;
+            bindings = <&mm_n0>, <&kp LS(N0)>;
+            display-name = "Mod-Tap";
+        };
     };
 };
