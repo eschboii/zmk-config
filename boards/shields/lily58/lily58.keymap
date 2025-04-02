@@ -38,7 +38,7 @@
 // | CTRL  |     |  $  |  €   |  £   |      |    (   |  |   )   |   0  |   1   |   2   |   3  |       |       |
 //                     | WIN  |  ALT | LOWER|  SPACE |  | ENTER | RAISE| ALTGR | FN    |
       bindings = <
-        &kp GRAVE &kp RA(N2) &kp LS(N7) &kp LS(N8)     &kp NON_US_BACKSLASH    &kp RA(NON_US_BACKSLASH)                    &kp PLUS        &kp LS(NON_US_BACKSLASH) &kp LS(N9)       &kp RA(MINUS)     &kp LS(N0)        &kp DEL  
+        &kp GRAVE &kp RA(N2) &kp LS(N7) &kp LS(N8)     &kp NON_US_BACKSLASH    &kp RA(NON_US_BACKSLASH)                    &kp EQUAL       &kp LS(NON_US_BACKSLASH) &kp LS(N9)       &kp RA(MINUS)     &kp LS(N0)        &kp DEL  
         &kp TAB   &kp LC(Z)  &kp LC(Y)  &kp LC(X)      &kp LC(C)               &kp LC(V)                                   &kp LS(BSLH)    &kp N7                   &kp N8           &kp N9            &kp MINUS         &mm_rbkt 
         &kp LSHFT &none      &none      &none          &none                   &none                                       &kp LS(N7)      &kp N4                   &kp N5           &kp N6            &kp SLASH         &kp BSLH
         &kp LCTRL &none      &kp RA(N4) &kp RA(N5)     &kp RA(N3)              &none            &kp LS(N8)  &kp LS(N9)     &kp N0          &kp N1                   &kp N2           &kp N3            &none             &none
